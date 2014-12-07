@@ -7,7 +7,7 @@ var stateActions = { preload: preload, create: create, update: update };
 // - renderer (go for Phaser.AUTO)
 // - element where the game will be drawn ('game')
 // - actions on the game state (or null for nothing)
-var game = new Phaser.Game(790, 400, Phaser.AUTO, 'game', stateActions);
+var game = new Phaser.Game(1024, 648, Phaser.AUTO, 'game', stateActions);
 
 /*
  * Loads all resources for the game and gives them names.
